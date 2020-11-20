@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BMI1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the height in meters:");
+            double height = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the weight in kilo:");
+            double weights = Convert.ToDouble(Console.ReadLine());
+
+            double cal = Math.Pow(height, 2);
+            double BMI = weights / cal;
+            Console.WriteLine("Your BMI:" + BMI);
+
+        }
+    }
+}
