@@ -1,0 +1,480 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace class_room_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+         //  int num1=GetInterger("Enter the num1");
+           
+
+            #region count 
+           
+            //int count1 = 0;
+            //while (num != 0)
+            //{
+            //    count1++;
+            //    num = num / 10;
+
+            //}
+            //Console.WriteLine(string.Format("The count of the number is {0}",count1));
+            #endregion
+
+            #region evne_or_odd
+
+            //int res = count_num(num);
+
+
+            //if (res % 2 == 0)
+            //{
+            //    Console.WriteLine("even length {0}", res);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("odd length {0}", res);
+            //}
+
+
+            
+            #endregion
+
+            #region sum_of_digits
+
+            //int sum = 0;
+            //int rem = 0;
+            //while (num != 0)
+            //{
+            //    rem = num % 10;
+            //    sum = sum + rem;
+            //    num = num / 10;
+            //}
+            //Console.WriteLine(sum);
+
+            #endregion
+
+            #region odd_pos_sum
+            //int odd_pos_sum = 0;
+            //int current_digit = 0;
+            //int count = 0;
+            //while (num != 0)
+            //{
+            //    count++;
+            //    current_digit = num % 10;
+
+
+
+
+            //    if (count % 2 != 0)
+            //    {
+            //        odd_pos_sum = odd_pos_sum + current_digit;
+
+            //    }
+            //    num = num / 10;
+
+            //}
+            //Console.WriteLine("The sum of odd_position {0}",odd_pos_sum);
+
+            #endregion
+
+            #region even_pos_sum
+            //int even_sum = 0;
+            //int count2 = 0;
+            //int current_digit1 = 0;
+            //while (num != 0)
+            //{
+            //    count2++;
+            //    current_digit1 = num % 10;
+            //    if (count2 % 2 == 0)
+            //    {
+            //        even_sum = even_sum + current_digit1;
+            //    }
+            //    num = num / 10;
+            //}
+            //Console.WriteLine("The sum of even digits {0}",even_sum);
+            #endregion
+
+
+            #region count_even_digit and sum_of_even_digits
+
+            //int current_digit = 0;
+            //int even_count = 0;
+            //int sum_even = 0;
+            //while (num != 0)
+            //{
+
+            //    current_digit = num % 10;
+            //    if (current_digit % 2 == 0)
+            //    {
+            //        even_count++;
+            //        sum_even=sum_even+current_digit;
+            //    }
+            //    num = num / 10;
+
+
+            //}
+            //Console.WriteLine("The number of even_digits is {0}", even_count);
+            //Console.WriteLine("The sum of even _digits is {0}",sum_even);
+            #endregion
+             
+            #region count_odd_digits and sum_of_odd_digits
+
+            //int odd_digits = 0;
+            //int current_digits = 0;
+            //int odd_sum = 0;
+            //while (num != 0)
+            //{
+
+            //    current_digits = num % 10;
+            //    if (current_digits % 2 != 0)
+            //    {
+            //        odd_digits++;
+            //        odd_sum = odd_sum + current_digits;
+            //    }
+            //    num = num / 10;
+
+            //}
+            //Console.WriteLine("The number of odd_digits is{0} ", odd_digits);
+            //Console.WriteLine("The sum of odd_digits is {0}", odd_sum);
+
+            #endregion
+
+            
+            #region last digit
+           // int rem = num % 10;
+           // Console.WriteLine(rem);
+
+
+
+            
+            #endregion
+
+            #region First digit
+           //int num1 = GetInterger("Enter the num1");
+           //int res = count_num(num1);
+           //int c = 1;
+           //while (c < res)
+           //{
+           //    c++;
+           //    num1 = num1 / 10;
+
+
+
+           //}
+           //Console.WriteLine(num1);
+           
+            
+           
+
+            #endregion
+            #region (A)
+           //int current_digit = 0;
+           //while (num != 0)
+           //{
+           //    current_digit = num % 10;
+           //    num = num / 10;
+           //}
+           //Console.WriteLine(current_digit);
+
+
+            #endregion
+
+            #region  12 first and last  digit
+            //int rem = num % 10;
+            //int res = count_num(num);
+            //int c = 1;
+            //while (c < res)
+            //{
+            //    c++;
+            //    num = num / 10;
+
+            //}
+           /// Console.WriteLine("The first digit is {0}", num);
+            //Console.WriteLine("the last digit is {0}", rem);
+
+          
+
+
+
+
+            #endregion
+
+            #region  if 1st and last are same or not
+            //if (num == rem)
+            //{
+            //    Console.WriteLine("1st and last digits are same");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("1st and last are not same");
+            //}
+
+
+            #endregion
+             
+            #region reverse of interger
+            //int num = GetInterger("enter the num");
+            //int rev = 0;
+            //int rem = 0;
+            //while (num != 0)
+            //{
+            //    rem = num % 10;
+            //    rev = (rev * 10) + rem;
+                    
+            //    num = num / 10;
+
+            //}
+            //Console.WriteLine(rev);
+
+            #endregion
+
+            #region palindrome
+           //int compare_num = num;
+           // int rem = 0;
+           // int rev = 0;
+           // while (num != 0)
+           // {
+           //     rem = num % 10;
+           //     rev = (rev * 10) + rem;
+           //     num = num / 10;
+           // }
+            
+           // if (compare_num == rev)
+           // {
+           //     Console.WriteLine("Given num is Palindrome");
+           // }
+           // else
+           // {
+           //     Console.WriteLine("Not palindrome");
+           // }
+
+
+
+            #endregion
+
+            #region  n and k
+            //int n = GetInterger("Enter the n");
+            //int k = GetInterger("Enter the k");
+            //int current_digit = 0;
+            //int count=0;
+            //while (n != 0)
+            //{
+            //    current_digit =n%10;
+            //    if (current_digit % k == 0)
+            //    {
+            //        count++;
+            //    }
+            //    n = n / 10;
+                    
+
+            //}
+            //Console.WriteLine(count);
+
+            #endregion
+
+            #region digital root
+            //int n = GetInterger("Enter the num to find the digital  roots");
+            //int current_digits = 0;
+            //int digital_root = 0;
+
+            //while (n != 0)
+            //{
+            //    current_digits = n % 10;
+            //    digital_root = digital_root + current_digits;
+            //    n = n/ 10;
+
+
+            //}
+            //Console.WriteLine(digital_root);
+            #endregion
+
+            #region 6(13) max_val
+            //int num = GetInterger("Enter the num");
+            //int current_digits = 0;
+            //int max = 0;
+            //while (num != 0)
+            //{
+            //    current_digits = num % 10;
+            //    if (current_digits > max)
+            //    {
+            //        max = current_digits;
+            //    }
+
+
+
+            //    num = num / 10;
+            //}
+            //Console.WriteLine("The highest digit  in this number is {0}", max);
+
+            #endregion
+
+            #region  6(14) once tens hundrends
+            //int num = GetInterger("Enter the num");
+            //int maxi = max_val(num);
+            //Console.WriteLine(maxi);
+            //int c=0;
+            //int present_digit=0;
+            //while (num != 0)
+            //{
+            //    present_digit = num % 10;
+            //    if (present_digit == maxi)
+            //    {
+            //        double dig = Math.Pow(10, c);
+            //        Console.WriteLine(string.Format(" The largest digit is present in {0}'s location",dig));
+            //    }
+            //    c++;
+            //    num = num / 10;
+
+
+            //}
+        
+       
+            
+
+            #endregion
+
+            #region 6(15) min_val
+            //int num = GetInterger("Enter the num");
+            //int current_digits = 0;
+            //int min = int.MaxValue;
+            //while (num != 0)
+            //{
+            //    current_digits = num % 10;
+            //    if (current_digits < min)
+            //    {
+            //        min = current_digits;
+            //    }
+
+
+
+            //    num = num / 10;
+            //}
+            //Console.WriteLine("The lowest digit  in this number is {0}", min);
+
+            #endregion
+
+            #region 6(16) once hundrends
+            //int num = GetInterger("Enter the num");
+            //int mini = min_val(num);
+            //Console.WriteLine(mini);
+            //int c = 0;
+            //int present_digit = 0;
+            //while (num != 0)
+            //{
+            //    present_digit = num % 10;
+            //    if (present_digit == mini)
+            //    {
+            //        double dig = Math.Pow(10, c);
+            //        Console.WriteLine(string.Format(" The smallest digit is present in {0}'s location", dig));
+            //    }
+            //    c++;
+            //    num = num / 10;
+
+
+            //}
+        
+       
+            #endregion
+
+            #region 
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+        static public int GetInterger(string message)
+        {
+            Console.WriteLine("******Getting Input from user********");
+            Console.WriteLine(message + ":");
+            int tempvalue;
+            if (!int.TryParse(Console.ReadLine(), out tempvalue))
+            {
+                return GetInterger("Please enter the valid integer :");
+            }
+            return tempvalue;
+        }
+        static public int count_num(int num)
+        {
+            int count = 0;
+            while (num != 0)
+            {
+                count++;
+                num = num / 10;
+
+            }
+            return count;
+        }
+        static public int max_val(int num)
+        {
+            
+            int current_digits = 0;
+            int max = 0;
+          
+            while (num != 0)
+            {
+                current_digits = num % 10;
+               
+                if (current_digits > max)
+                {
+                    max = current_digits;
+
+                }
+
+                num = num / 10;
+                
+             }
+           
+
+
+            return max;
+    }
+        static public int min_val(int num)
+        {
+
+            int current_digits = 0;
+            int min = int.MaxValue;
+
+            while (num != 0)
+            {
+                current_digits = num % 10;
+
+                if (current_digits < min)
+                {
+                    min = current_digits;
+
+                }
+
+                num = num / 10;
+
+            }
+
+
+
+            return min;
+        
+        }
+       
+        
+
+          
+        
+        
+      
+
+
+    }
+}
