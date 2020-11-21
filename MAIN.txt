@@ -1,0 +1,342 @@
+
+
+
+
+
+
+
+
+
+
+
+ static void Main(string[] args)
+        {
+            #region 1. mailling_address
+            // 1.Create a program that displays your name and mailing address formatted in the manner that you would see in on the outside of the envelop.
+            //string address = Get_Address();
+            //Console.WriteLine(address);
+
+            #endregion
+
+            #region 2.Two_integers
+            //2.Given two  integers,write a program to perform sum,diff and product.(any one);
+
+            //double a = Get_double("enter the a");
+            //double b = Get_double("enter the ");
+            //double sum = call_sum(a, b);
+            //double diff = call_diff(a, b);
+            //double product = call_product(a, b);
+            //Console.WriteLine("The sum of a and b: " + sum);
+            //Console.WriteLine("The diff of a and b: " + diff);
+            //Console.WriteLine("The product of a and b: " + product);
+            #endregion
+
+            #region 3. power
+            //3.Write a program to find the value of a that raised to the power of b,where a and b are positive integers.
+            //Console.WriteLine("enter a");
+            //string num1 = Console.ReadLine();
+            //int a = Convert.ToInt32(num1);
+
+            //Console.WriteLine("enter b");
+            //string num2 = Console.ReadLine();
+            //int b = Convert.ToInt32(num2);
+            //double pow_result = power1(a, b);
+            //Console.WriteLine(pow_result);
+
+            
+            #endregion
+
+            #region 4.volume of tank
+            //4.Write a program to find the volume of the rectangle tank. Hint :l*b*h
+            //double len = Get_double("enter the len of the tank:");
+            //double breath = Get_double("Enter the breath of the tank:");
+            //double height = Get_double("ENter the height of the tank :");
+            //double result = call_volue_of_tank(len, breath, height);
+            //Console.WriteLine("The volume of the tank: " + result);
+            #endregion
+
+            #region 5. perimeter
+            //5.Find the perimeter of the circle given radius. Hint:2*pi*r.
+            //double radius = Get_double("Enter the radius:");
+            
+            //double perimeter = call_perimeter(radius);
+            //Console.WriteLine("The perimeter of the circle:" + perimeter);
+            
+            #endregion
+
+            #region 6.remainder and quotient
+            ////6.Given the numerator and denominator,find the remainder and quotient.
+            //Console.WriteLine("Enter the numerator:");
+            //double numerator=Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the denominator:");
+            //double denominator=Convert.ToDouble(Console.ReadLine());
+
+            ////I used two methods !One method to give remainder,other one to give quotient.
+
+            //double remainder1=call_rem(numerator,denominator);
+            //double quotient1=call_quo(numerator,denominator);
+            //Console.WriteLine("The remainder is :"+remainder1);
+            //Console.WriteLine("The quotient is :"+quotient1);
+            
+            
+            
+            #endregion
+
+            #region 7. square
+            //7.Program to find the square of the number.
+            //Console.WriteLine("Enter the number to be squared :");
+            //double square = Convert.ToDouble(Console.ReadLine());
+            //double squared_num = call_square(square);
+            //Console.WriteLine("The square of the given num is : " + squared_num);
+
+            #endregion
+
+            #region 8.Sqroot
+            //8.Program to find the square root of the given number.Use functions. Hint sqrt.
+            //Console.WriteLine("Enter the num to find it's square root:");
+            //double num = Convert.ToDouble(Console.ReadLine());
+            //double result = call_sqroot(num);
+            //Console.WriteLine("The sqroot of the given num is :" + result);
+
+
+            
+            #endregion
+
+            #region 9.Area_of_triangle
+
+            //9.Program to calculate the Area of triangle. Hint:0.5*l*b
+            //Console.WriteLine("Enter the length of triangle:");
+            //double len = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the height of the triangle:");
+            //double height = Convert.ToDouble(Console.ReadLine());
+
+            //double area = call_area_of_tri(len, height);
+            //Console.WriteLine("The area of the triangle is :" + area);
+
+
+            #endregion
+
+            #region 10.kilo_to_miles
+            //10.Program to convert kilometers to miles. Hint:1kilomter=0.621 mile.
+            //Console.WriteLine("Enter the distance in kilometers :");
+            //int distance = Convert.ToInt32(Console.ReadLine());
+
+            //double distance_in_miles = call_kilo_miles(distance);
+            //Console.WriteLine("The distance in miles :" + distance_in_miles);
+           
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            #region 11.temperature conversion
+            ////11.Program to convert celsius to farenheit.Hint:(celsius*9/5)+32
+            //Console.WriteLine("Enter the temp inn celsius : ");
+            //double temp_in_cel = Convert.ToDouble(Console.ReadLine());
+
+            //double temp_in_farenheit = call_celsius_farenheit(temp_in_cel);
+            //Console.WriteLine("The temperature in farenheit is :" + temp_in_farenheit);
+            #endregion
+
+            #region  12.swap_using_temp
+            //12.Program to swap two varaiables.
+            //Console.WriteLine("Enter a:");
+            //double a = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter b:");
+            //double b = Convert.ToDouble(Console.ReadLine());
+            //double swapped_val_a = call_swap(a, b);
+            //double swapped_val_b = call_swap1(a, b);
+            //Console.WriteLine("The value of a:"+swapped_val_a+"The value of a:"+swapped_val_b);
+            #endregion
+
+            #region 13.swap_without_temp
+            //13.Program to swap two variable without using temporary variables.
+            //Console.WriteLine("Enter value for a: ");
+            //double a = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the value for b:");
+            //double b = Convert.ToDouble(Console.ReadLine());
+            //double a1= call_swap_without_temp(a,b);
+            //double b1 = call_swap_without_temp1(a, b);
+            //Console.WriteLine("The swapped a : " + a1 + "  swapped b: " +b1);
+            #endregion
+
+            #region 14. swap_without_overflow
+            //14.Program to swap two  variable without causing overflow.
+            //Console.WriteLine("Enter the a :");
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter the b :");
+            //int b = Convert.ToInt32(Console.ReadLine());
+
+            //int swapped_a = call_swap_without_overflow(a, b);
+            //int swapped_b = call_swap_without_overflow1(a, b);
+            //Console.WriteLine("The swapped a :" + swapped_a + " the swapped b: " + swapped_b);
+
+            #endregion
+
+            #region 15.random_numbers
+            //15.Program to print the Random Number between 1 and 100.
+            //int  random=call_random_num();
+            //Console.WriteLine("The random number is :" + random);
+            #endregion
+
+            #region 16.area_of_field
+            //16.Find the area of the field in acres,whose length and width are given in feet.1acre=43,560 sq.ft.
+            //Console.WriteLine("Enter the length of the field in feet :");
+            //double len=Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the width of the field in feet :");
+            //double width=Convert.ToDouble(Console.ReadLine());
+
+            //double area_in_acres=call_area_of_field(len,width);
+            //Console.WriteLine("The area of field in acres :"+area_in_acres);
+
+            #endregion
+
+            #region 17.natural numbers
+           // 17.Program to find sum of N natural numbers.Hint:n*(n+1)/2
+
+            //Console.WriteLine("Enter the n");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //double sum_of_num = call_natural_num(n);
+            //Console.WriteLine("The sum of N natural numbers are :" + sum_of_num);
+
+
+            #endregion
+
+            #region 18.tip_to_waiter
+            //18.Write the program to provide tips to waiter which is 5% of the bill amount.
+            //Console.WriteLine("Enter the amount :");
+            //double amount = Convert.ToDouble(Console.ReadLine());
+            //double tip_to_waiter = call_tip_to_waiter(amount);
+            //Console.WriteLine("The tip to the waiter is :" + tip_to_waiter);
+
+
+            #endregion
+
+            #region 19.tax
+            //19.Given the total amount and tax %,calculate the net amount in backwards.
+            //Console.WriteLine("Enter the amount :");
+            //double amount = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the tax:");
+            //double tax = Convert.ToDouble(Console.ReadLine());
+
+            //double amount1 = call_tax(amount, tax);
+            //Console.WriteLine("The net amount is :" + amount1);
+
+
+            #endregion
+
+            #region 20.gross_pay
+            //20.Given the basic pay,DA% ,TA%,PF% 8% deduction,calculate gross pay.Hint:Gross pay=Basic+DA+TA-PF.
+            //Console.WriteLine("Enter the Basic pay :");
+            //double basic = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the DA :");
+            //double DA = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the Ta :");
+            //double TA = Convert.ToDouble(Console.ReadLine());
+
+            //double net_amount = call_grosspay(basic, TA, DA);
+            //Console.WriteLine("The net amount :" + net_amount);
+
+
+             #endregion
+
+            #region 21.simple interest
+            //21.Write a program to find simple interest.Hint:P(1+r*t).
+
+       
+            
+            //Console.WriteLine("Enter the principal :");
+            //double Prinicipal=Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the rate :");
+            //double rate=Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the time :");
+            //double time=Convert.ToDouble(Console.ReadLine());
+
+
+            //double simple_interest=call_simple_interest(Prinicipal,rate,time);
+            //Console.WriteLine("The simple interest is :" +simple_interest);
+
+            #endregion
+
+            #region 22.compound_interest
+           // 22.Write the program to find the compound interest.Hint:P(1+r/n)^nt
+            //Console.WriteLine("Enter the principal :");
+            //double Principal=Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the rate :");
+            //double rate=Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the time :");
+            //double time=Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the   n :");
+            //double n = Convert.ToDouble(Console.ReadLine());
+
+            //double compound_interest = call_compound_interest(Principal, rate, time, n);
+            //Console.WriteLine("The compound interest is :" + compound_interest);
+
+            
+            #endregion
+
+            #region 23.height_of_person
+            //23.Given the height of person in cm ,convert into inches and feet. Hint:1 foot=30.48cm ,1 inche=2.54cm
+            //Console.WriteLine("Enter the height in cms:");
+            //double height = Convert.ToDouble(Console.ReadLine());
+
+            //double height_in_feet = call_height(height);
+            //double height_in_inches = call_height1(height);
+            //Console.WriteLine("The height in feet :" + height_in_feet);
+            //Console.WriteLine("The height in inches:" + height_in_inches);
+
+
+             #endregion
+
+            #region 24.BMI
+            //24.Program to find the BMI of the person given height in meters and weight in kg.Hint: (w/h^2)
+
+            //Console.WriteLine("Enter the height in meters :");
+            //double height_of_person = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the weight in Kg :");
+            //double weight_of_person = Convert.ToDouble(Console.ReadLine());
+
+            //double BMI_of_person = call_BMI(height_of_person, weight_of_person);
+            //Console.WriteLine("The BMI of the person :" + BMI_of_person);
+
+
+
+
+
+            #endregion
+
+            #region 25.average_of_marks
+            //25.Program to read  the roll no ,name and three subjects mark,and given the total and average.
+            //Console.WriteLine("Enter your name :");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Enter your roll no :");
+            //int rollno = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter your sub1 mark :");
+            //int sub1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter your sub2 mark :");
+            //int sub2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter your sub3 mark :");
+            //int sub3 = Convert.ToInt32(Console.ReadLine());
+
+            //double total = call_total(sub1, sub2, sub3);
+            //double avaerage = call_total(total);
+            //Console.WriteLine("The total of the marks :" + total);
+            //Console.WriteLine("The average of the marks :" + avaerage);
+                
+
+
+            #endregion
+        }
