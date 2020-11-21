@@ -1,0 +1,224 @@
+METHODS FOR FIRST 25 QUESTION;(METHOD HOMEWORK)
+
+
+
+
+
+static public string Get_Address()
+        {
+            string address = "";
+            Console.WriteLine("Enter your name");
+            string name = Console.ReadLine();
+            Console.WriteLine("Enter door no");
+            string door_num =Console.ReadLine();
+            Console.WriteLine("Enter your Street,and town");
+            string street = Console.ReadLine();
+            Console.WriteLine("Enter distric");
+            string district = Console.ReadLine();
+            Console.WriteLine("Enter the state ");
+            string state = Console.ReadLine();
+            Console.WriteLine("Enter the pincode");
+            string pin = Console.ReadLine();
+            address = name + ",\n" + door_num + "\t" + street + "," + district + ",\n" + state;
+            return address;
+        }
+
+        static public double Get_double(string message)
+        {
+            Console.WriteLine("*************GEtting user input*********");
+            Console.WriteLine(message + ".");
+            double tempvalue;
+            if (!double.TryParse(Console.ReadLine(),out tempvalue))
+            {
+                return Get_double("Please enter an double value :");
+            
+            }
+            return tempvalue;
+        }
+        static public double call_sum(double a, double b)
+        {
+            double sum = a + b;
+            return sum;
+        }
+        static public double call_diff(double a,double b)
+        {
+            double diff=a-b;
+            return diff;
+        }
+        static public double call_product(double a,double b)
+        {
+            double product=a*b;
+            return product;
+        }
+        static public double  call_power1(double  a, double b)
+        {
+            double c = Math.Pow(a, b);
+            return c;
+        }
+        static public double call_volue_of_tank(double len, double breath, double width)
+        {
+            double vol = len * breath * width;
+            return vol;
+        }
+        static public double call_perimeter(double radius)
+        {
+            double perimeter = 2 * Math.PI*radius;
+            return perimeter;
+        }
+        static public double  call_rem(double numerator,double denominator)
+        {
+            double remainder=numerator/denominator;
+            return remainder;
+        }
+        static public double call_quo(double numerator, double denominator)
+        {
+            double quotient = numerator % denominator;
+            return quotient;
+        }
+        static public double call_square(double num)
+        {
+        double square=num *num ;
+        return square;
+
+        }
+        static public double call_sqroot(double num)
+        {
+            double sqroot = Math.Sqrt(num);
+            return sqroot;
+        }
+        static public double call_swap(double a, double b)
+        {
+            double temp = b;
+            b = a;
+            a = temp;
+            return a;
+        }
+        static public double call_swap1(double a, double b)
+        {
+            double temp = b;
+            b = a;
+            a = temp;
+            return b;
+        }
+        static public double call_area_of_tri(double len, double height)
+        {
+            double area = (0.5* (len * height));
+            return area;
+        }
+        static public double call_kilo_miles(int distance)
+        {
+            double result_in_miles = distance / 1.609;
+            return result_in_miles;
+        
+        }
+        static public double call_celsius_farenheit(double temp_in_cel)
+        {
+            double temp_in_farenheit = (temp_in_cel * 9 / 5) + 32;
+            return temp_in_farenheit;
+        }
+        static public double call_swap_without_temp(double a, double b)
+        {
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            return a;
+        }
+        static public double call_swap_without_temp1(double a,double b)
+        {
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            return b;
+        }
+        static public int call_swap_without_overflow(int  a, int b)
+        {
+            a = a ^ b;
+            b = a ^ b;
+            a = a ^ b;
+            return a;
+        }
+        static public int call_swap_without_overflow1(int a, int b)
+        {
+            a = a ^ b;
+            b = a ^ b;
+            a = a ^ b;
+            return b;
+        }
+        static public double call_area_of_field (double len,double width)
+        {
+            double area=len*width;
+            double area_in_acres=area /43560;
+            return area_in_acres;
+
+        }
+        static public double call_natural_num(int n)
+        {
+          double num=((n *(n +1))/2);
+          return num ;
+        }
+        static public double call_tip_to_waiter(double amount)
+        {
+            double tip_amount = amount * 0.05;
+            return tip_amount;
+        }
+        static public double call_tax(double net_amount,double tax)
+        {
+            double total_tax = 1+(tax / 100);
+            double amount1 = net_amount / total_tax;
+            double actual_amount = amount1 * tax / 100;
+            return actual_amount;
+        }
+        static public double call_grosspay(double basic, double TA, double DA)
+        {
+            double Ta = basic * (TA / 100);
+            double Da = basic * (DA / 100);
+            double PF = basic * 0.08;
+            double gross_pay = basic + Ta + Da - PF;
+            return gross_pay;
+        
+        }
+        static public  double call_simple_interest(double principal,double rate,double Time)
+        {
+            double rate1 = rate / 100;
+            double simple_interest=(principal*(1+(rate1*Time)));
+            return simple_interest;
+
+        }
+
+        static public double call_compound_interest(double principal, double rate, double Time, double n)
+        {
+            double rate1 = rate / 100;
+            double cal = (1 + rate1 / n);
+            double powers = Time * n;
+            double cal1 = Math.Pow(cal, powers);
+            double compound_interest = principal * cal1;
+            return compound_interest;
+        }
+        static public double call_height(double height)
+        {
+            double feet = height / 30.84;
+            double inches = height / 2.54;
+            return feet;
+        }
+        static public double call_height1(double height)
+        {
+            double feet = height / 30.84;
+            double inches = height / 2.54;
+            return inches;
+        }
+        static public double call_BMI(double height, double weight)
+        {
+            double height_square = Math.Pow(height, 2);
+            double BMI = (weight / height_square);
+            return BMI;
+        }
+        static public double call_total(double sub1,double sub2,double sub3)
+        {
+            double total = sub1 + sub2 + sub3;
+            return total;
+        }
+        static public double call_total( double total)
+        {
+            double avaerage = total / 3;
+            return avaerage;
+        }
