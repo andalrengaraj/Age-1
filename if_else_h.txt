@@ -1,0 +1,895 @@
+static void Main(string[] args)
+        {
+            #region GetType_of_num
+            //int num = GetInterger("Enter the number :");
+            //string type = GetType(num);
+            //Console.WriteLine(type);
+            #endregion
+
+            #region Equal_or_not
+            //int num1 = GetInterger("Enter the num1 :");
+            //int num2 = GetInterger("Enter the num2 :");
+            //string equal_or_not = Equal_or_not(num1, num2);
+            //Console.WriteLine(equal_or_not);
+            #endregion
+
+            #region two_floating_numbers
+            //double floatnum1 = GetDouble("Enter the 1st float num ");
+            //double floatnum2 = GetDouble("Enter the 2nd float num ");
+            //string float_equal_not = Float_equal_not(floatnum1, floatnum2);
+            //Console.WriteLine(float_equal_not);
+            #endregion
+
+            #region odd_even
+            //double num=GetDouble("Enter the num");
+            //string odd_or_even=odd_or_equal(num);
+            //Console.WriteLine(odd_or_even);
+
+            #endregion
+
+            #region leap_year
+            int year = GetInterger("Enter the year ");
+            string leap_or_not = leap_year(year);
+            Console.WriteLine(leap_or_not);
+            #endregion
+
+            #region Voting_eligibility
+            //int age=GetInterger("Enter your age to check  the voting eligibilty");
+            //string eligiblity=voting_eligibility(age);
+            //Console.WriteLine(eligiblity);
+
+            #endregion
+
+            #region Height_of_person
+            //double height = GetDouble("Enter your height in cm");
+            //string height_cal = height_of_person(height);
+            //Console.WriteLine(height_cal);
+
+
+            #endregion
+
+            #region largest_of_3
+            //double  num1=GetDouble("enter the num1");
+            //double  num2=GetDouble("enter the num2");
+            //double  num3 =GetDouble("enter the num3");
+            //double  largest = largest_of_3_new(num1, num2, num3);
+            //Console.WriteLine(largest);
+
+
+
+
+
+
+            #endregion
+
+            #region smallest_of_3
+            //double num1 = GetDouble("Enter the num1");
+            //double num2 = GetDouble("enter the num2");
+            //double num3 = GetDouble("Enter the num3");
+            //double ans_smallest_of_3 = smallest_of_3_new(num1, num2, num3);
+            //Console.WriteLine(ans_smallest_of_3);
+
+            #endregion
+
+            #region largest_of_4
+            //double num1 = GetDouble("Enter the num1");
+            //double num2 = GetDouble("enter the num2");
+            //double num3 = GetDouble("Enter the num3");
+            //double num4 = GetDouble("Enter the num4");
+            //double ans_largest_of_4 = largest_of_4_new(num1, num2, num3, num4);
+            //Console.WriteLine(ans_largest_of_4);
+
+
+
+
+            #endregion
+
+
+            #region close_to_each
+            //double x = GetDouble("Enter the a");
+            //double y = GetDouble("enter the b");
+            //double z = GetDouble("enter the c");
+            //string res = close_to_each_new1(x, y, z);
+            //Console.WriteLine(res);
+
+
+            #endregion
+
+            #region far_to_each
+            //double x = GetDouble("Enter x");
+            //double y = GetDouble("Enter y");
+            //double z = GetDouble("Enter z");
+            //string res = far_to_each(x, y, z);
+            //Console.WriteLine(res);
+            #endregion
+
+            #region to_sort
+            //double num1 = GetDouble("Enter the num1 ");
+            //double num2 = GetDouble("enter the num2");
+            //double num3 = GetDouble("Enter the num3");
+            //string res = sort_num(num1, num2, num3);
+            //Console.WriteLine(res);
+            
+
+            
+
+            #endregion
+
+            #region To_check_triangle
+            //double s1 = GetDouble("Enter the s1");
+            //double s2 = GetDouble("Enter the s2");
+            //double s3 = GetDouble("enter the s3");
+            //string tri_eligibility = to_form_triangle(s1, s2, s3);
+            //Console.WriteLine(tri_eligibility);
+
+            #endregion
+
+            #region Quadrant
+            //double val1 = GetDouble("Enter the val1");
+            //double val2 = GetDouble("ENter the val2");
+            //string quadrant = x_y_axis(val1, val2);
+            //Console.WriteLine(quadrant);
+
+            #endregion
+
+            #region vowels_cons
+            //string c = Getstring("Enter the  single character");
+            //string vowel_or_cons = vowel_const(c);
+            //Console.WriteLine(vowel_or_cons);
+            #endregion
+
+            #region shapes_name
+            //int sides = GetInterger("Enter the number of sides");
+            //string shape_name = shapes_name(sides);
+            //Console.WriteLine(shape_name);
+            #endregion
+
+            #region days_in_month
+            //string month = Getstring("Enter the month name ");
+            //int num_of_days_in_month = num_of_days(month);
+            //Console.WriteLine(num_of_days_in_month);
+            #endregion
+
+            #region equ_iso_sca
+            //double s1 = GetDouble("Enter the s1");
+            //double s2 = GetDouble("enter the s2");
+            //double s3 = GetDouble("enter the s3");
+            //string name_of_triangle = name_of_tri(s1, s2, s3);
+            //Console.WriteLine(name_of_triangle);
+
+            #endregion
+
+            #region grades
+            //int mark = GetInterger("Enter the mark");
+            //string grades = grade_to_letter(mark);
+            //Console.WriteLine(grades);
+
+
+
+            #endregion
+
+            #region equation
+            //double res = equation(num1, num2, num3);
+            //Console.WriteLine(res);
+
+
+            #endregion
+
+
+            #region profit_or_loss
+            //double cost_price = GetDouble("Enter the cost_price");
+            //double selling_price = GetDouble("Enter the selling_price");
+            //double res = profit_loss(cost_price, selling_price);
+            //Console.WriteLine(res+"%");
+
+            #endregion
+
+            #region menu_driven
+            //double x = GetDouble("enter the x");
+            //double y = GetDouble("Enter the y");
+            
+            //double your_result = menu_driven(x, y);
+            //Console.WriteLine(your_result);
+
+            #endregion
+
+            #region date
+            //int date = GetInterger("enter the date:");
+            //string day = day_of_week1(date);
+            //Console.WriteLine(day);
+            #endregion
+
+            #region blocks
+            //string letter = Getstring("Enter the a letter  a to h");
+            //int num = GetInterger("Enter the num between 1 to 8");
+            //string colour_of_blocks = blocks_color(letter, num);
+            //Console.WriteLine(colour_of_blocks);
+            #endregion
+
+
+
+
+        
+        }
+        static public int GetInterger(string message)
+        {
+            Console.WriteLine("******Getting Input from user********");
+            Console.WriteLine(message + ":");
+            int tempvalue;
+            if (!int.TryParse(Console.ReadLine(), out tempvalue))
+            {
+                return GetInterger("Please enter the valid integer :");
+            }
+            return tempvalue;
+        }
+        static public double GetDouble(string message)
+        {
+            Console.WriteLine("******Getting Input from user********");
+            Console.WriteLine(message + ":");
+            double tempvalue;
+            if (!double.TryParse(Console.ReadLine(), out tempvalue))
+            {
+                return GetInterger("Please enter the valid Double :");
+            }
+            return tempvalue;
+        }
+        static public string Getstring(string message)
+        {
+            Console.WriteLine("*********GettingInput*********");
+            Console.WriteLine();
+            Console.WriteLine(message + ",");
+            string tempstring = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(tempstring))
+            {
+                tempstring = Getstring("Please enter valid text");
+
+            }
+            return tempstring;
+
+
+        }
+
+        static public string GetType(int num)
+        {
+            if (num < 0)
+            {
+                return "negative";
+
+            }
+            else if (num > 0)
+            {
+                return "Positive";
+            }
+            else
+            {
+                return "Zero";
+            }
+        }
+        static public string Equal_or_not(int num1, int num2)
+        {
+            if (num1 == num2)
+            {
+                return "Two numbers are equal";
+            }
+            else
+            {
+                return "Two numbers are not equal";
+            }
+        }
+        static public string Float_equal_not(double floatnum1, double floatnum2)
+        {
+            if (floatnum1 == floatnum2)
+            {
+                return "Two float are equal ";
+            }
+            else
+            {
+                return "Two float are not equal";
+            }
+
+        }
+        static public string odd_or_equal(double num)
+        {
+            if (num % 2 == 0)
+            {
+                return "It's a even number";
+            }
+            else
+            {
+                return "It's a odd number";
+            }
+
+        }
+        static public string leap_year(int num)
+        {
+            if (num % 4 == 0 && num % 100 != 0)
+            {
+                return "Leap year";
+            }
+            else
+            {
+                return "Not a leap";
+            }
+
+
+        }
+        static public string voting_eligibility(int age)
+        {
+            string x = "You can't vote";
+            if (age >= 18)
+            {
+                x = "Congarts!!,You are eligibile to vote";
+                return x;
+            }
+            return x;
+
+        }
+        static public string height_of_person(double height)
+        {
+            string x = "You are short and cute";
+            if (height > 170)
+            {
+                x = " Tall";
+                return x;
+            }
+            else if (height >= 160)
+            {
+                if (height <= 170)
+                {
+                    x = "Medium";
+                    return x;
+                }
+            }
+            return x;
+        }
+        static public double largest_of_3(double num1, double num2, double num3)
+        {
+            double num = num3;
+
+            if (num1 > num2 && num1 > num3)
+            {
+                return num1;
+            }
+            else if (num2 > num3)
+            {
+                return num2;
+
+            }
+            return num3;
+        }
+        static public double  largest_of_3_new(double num1,double  num2,double  num3)
+        {
+            double biggest = int.MinValue;
+
+            if (num1 > biggest)
+            {
+                biggest = num1;
+            }
+            if (num2 > biggest)
+            {
+                biggest = num2;
+            }
+            if (num3>biggest)
+            {
+                biggest = num3;
+            }
+            return biggest;
+            
+        
+        }
+        static public double smallest_of_2(double num1, double  num2)
+        {
+            if (num1 > num2)
+            {
+                return num2;
+            }
+            else{
+                return num1;
+            }
+        
+        }
+        
+        
+        
+        
+    
+        
+        
+        static public double smallest_of_3(double num1, double num2, double num3)
+        {
+            double num = num3;
+
+            if (num1 < num2 && num1 < num3)
+            {
+
+
+                return num1;
+
+
+            }
+            else if (num2 < num3)
+            {
+                return num2;
+
+            }
+            return num3;
+        }
+        static public double smallest_of_3_new(double num1, double num2, double num3)
+        
+           
+        {
+            double smallest = int.MaxValue;
+
+            if (num1 < smallest)
+            {
+                smallest = num1;
+            }
+            if (num2 < smallest)
+            {
+                smallest = num2;
+            }
+            if (num3<smallest)
+            {
+                smallest = num3;
+            }
+            return smallest;
+          
+        
+        
+        }
+        static public double largest_of_4(double num1, double num2, double num3, double num4)
+        {
+            double largest_of_three = largest_of_3(num1, num2, num3);
+            
+            
+                if (largest_of_three > num4)
+                {
+                    return largest_of_three;
+                }
+                else
+                {
+                    return num4;
+                }
+            
+        }
+        static public double largest_of_4_new(double num1, double num2, double num3, double num4)
+        {
+            double max = int.MinValue;
+            if (num1 > max)
+            { max = num1; }
+             if (num2 > max)
+            { max = num2; }
+            if (num3 > max)
+            { max = num3; }
+            if (num4>max)
+            {
+                max = num4;
+            }
+            return max;
+
+        
+        
+        }
+
+        static public string to_form_triangle(double s1, double s2, double s3)
+        {
+            if
+                (s1 + s2 <= s3 || s2 + s3 <= s1 || s3 + s1 <= s2)
+            {
+                return "Cannot from triangle";
+
+            }
+            else
+            {
+                return "Can form a triangle";
+
+            }
+        }
+        static public string x_y_axis(double val1, double val2)
+        {
+            string x = "4th quadrant";
+            if (val1 >= 0 && val2 >= 0)
+            {
+                x = "1st quadrant";
+                return x;
+            }
+            else if (val1 <= 0 && val2 >= 0)
+            {
+                x = "2nd quadrant";
+            }
+            else if (val1 <= 0 && val2 <= 0)
+            {
+                x = "3nd quadrant";
+            }
+            return x;
+        }
+        static public string vowel_const(string c)
+        {
+            string x = "Consonant";
+            if (c == "a" || c == "e" || c == "i" || c == "o" || c == "u")
+            {
+                x = "Vowel";
+                return x;
+            }
+            return x;
+        }
+        static public string shapes_name(int num_of_sides)
+        {
+            string x = "decagon";
+            if (num_of_sides == 3)
+            {
+                x = "triangle";
+                return x;
+            }
+            else if (num_of_sides == 4)
+            {
+                x = "Square";
+                return x;
+            }
+            else if (num_of_sides == 5)
+            {
+                x = "Pentagon";
+                return x;
+            }
+            else if (num_of_sides == 6)
+            {
+                x = "Hexagon";
+                return x;
+            }
+            else if (num_of_sides == 7)
+            {
+                x = "Heptagon";
+                return x;
+            }
+            else if (num_of_sides == 8)
+            {
+                x = "octagon";
+                return x;
+            }
+            else if (num_of_sides == 9)
+            {
+                x = "nanogon";
+                return x;
+            }
+            return x;
+
+        }
+        static public int num_of_days(string month)
+        {
+            int x = 30;
+            if (month == "jan" || month == "mar" || month == "may" || month == "jul" || month == "aug" || month == "oct" || month == "dec")
+            {
+                x = 31;
+                return x;
+            }
+            else if (month == "feb")
+            {
+                x = 28;
+                return x;
+            }
+            return x;
+        }
+        
+           
+        
+        
+        static public string name_of_tri(double s1, double s2, double s3)
+        {
+            string sides = "scalene";
+            if (s1 == s2 && s2 == s3 && s3 == s1)
+            {
+                sides = "Equilateral";
+                return sides;
+            }
+            else if (s1 == s2 || s2 == s3)
+            {
+                sides = "isosceles";
+                return sides;
+
+            }
+            return sides;
+
+        }
+        static public string grade_to_letter(double sub_mark)
+        {
+
+            string x = "F";
+            if (sub_mark >= 90)
+            {
+                return "A";
+            }
+            else if (sub_mark >= 80)
+            {
+                return "B";
+            }
+            else if (sub_mark >= 70)
+            {
+                return "B";
+            }
+            else if (sub_mark >= 60)
+            {
+                return "B";
+            }
+            return x;
+        }
+
+
+            
+
+
+        
+        static public string day_of_week(int date)
+        {
+            if (date == 1 || date == 8 || date == 15 || date == 22 || date == 29)
+            {
+                return "monday";
+            }
+            else if (date == 2 || date == 9 || date == 16 || date == 23 || date == 30)
+            {
+                return "tuesday";
+            }
+
+            else if (date == 3 || date == 10 || date == 17 || date == 24 || date == 31)
+            {
+                return "wednesday";
+            }
+            else if (date == 4 || date == 11 || date == 18 || date == 25)
+            {
+                return "thrusday";
+            }
+            else if (date == 5 || date == 12 || date == 19 || date == 26)
+            {
+                return "friday";
+            }
+            else if (date == 6 || date == 13 || date == 20 || date == 27)
+            {
+                return "saturday";
+            }
+            else { return "sunday"; }
+
+
+
+
+
+        }
+        static public string day_of_week_new(int date)
+        {
+            if (date % 7 == 1)
+            { return "Monday"; }
+            else if (date % 7 == 2)
+            { return "Tuesday"; }
+            else if (date % 7 == 3)
+            { return "Wednesday"; }
+            else if(date%7 ==4)
+            {return "Thursday";}
+            else if (date % 7 == 5)
+            { return "Friday"; }
+            else if (date % 7 == 6)
+            { return "saturday"; }
+            else { return "sunday"; }
+        
+        
+        }
+        static public string close_to_each(double x, double y, double z)
+        {
+            double num1 = Math.Abs(x - y);
+            double num2 = Math.Abs(y - z);
+            double num3 = Math.Abs(z - x);
+            double ans = smallest_of_3(num1, num2, num3);
+            if (ans == num1)
+            {
+                Console.WriteLine("The values are {0},{1}", x, y);
+                string ans1 = Console.ReadLine();
+                return ans1;
+            }
+            else if (ans == num2)
+            {
+
+
+                Console.WriteLine("The values are {0},{1}", y, z);
+                string ans2 = Console.ReadLine();
+                return ans2;
+            }
+            else
+            {
+                Console.WriteLine("The values are {0},{1}", z, x);
+                string ans3 = Console.ReadLine();
+                return ans3;
+            }
+        }
+        static public string close_to_each_new(double x, double y, double z)
+        {
+            double num1 = Math.Abs(x - y);
+            double num2 = Math.Abs(y - z);
+            double num3 = Math.Abs(z - x);
+            double min_diff = smallest_of_3(num1, num2, num3);
+            string res = "";
+            if (min_diff==num1)
+            {
+                res = Convert.ToString(num1) +","+ Convert.ToString(num2);
+            }
+            if (min_diff == num2)
+            {
+                res = Convert.ToString(num2) + "," + Convert.ToString(num3);
+            }
+            if (min_diff == num3)
+            {
+                res = Convert.ToString(num3) + "," + Convert.ToString(num1);
+            }
+            return res;
+        
+        }
+        static public string close_to_each_new1(double x, double y, double z)
+        {
+            double num1 = Math.Abs(x - y);
+            double num2 = Math.Abs(y - z);
+            double num3 = Math.Abs(z - x);
+            double smallest_val = smallest_of_3(num1, num2, num3);
+            string res = Convert.ToString(x) + "," + Convert.ToString(y);
+            if (smallest_val > num2)
+            {
+                
+                res = Convert.ToString(y) + "," + Convert.ToString(z);
+                return res;
+
+            }
+            if (smallest_val > num3)
+            {
+                res = Convert.ToString(z) + "," + Convert.ToString(x);
+                return res;
+            }
+            return res;
+           
+            
+            
+
+        
+        
+        
+        }
+
+        static public string far_to_each(double x, double y, double z)
+        {
+            double num1 = Math.Abs(x - y);
+            double num2 = Math.Abs(y - z);
+            double num3 = Math.Abs(z - y);
+            double ans = largest_of_3(num1, num2, num3);
+            if (ans == num1)
+            {
+                Console.WriteLine("The values are {0},{1}", x, y);
+                string ans1 = Console.ReadLine();
+                return ans1;
+            }
+            else if (ans == num2)
+            {
+
+
+                Console.WriteLine("The values are {0},{1}", y, z);
+                string ans2 = Console.ReadLine();
+                return ans2;
+            }
+            else
+            {
+                Console.WriteLine("The values are {0},{1}", z, x);
+                string ans3 = Console.ReadLine();
+                return ans3;
+            }
+
+        
+        }
+       
+        static public double menu_driven(double a, double b)
+        {
+
+
+            Console.WriteLine("1 -add");
+            Console.WriteLine("2 -sub");
+            Console.WriteLine("3 -mul");
+            Console.WriteLine("4 -mod");
+            int input = Convert.ToInt32(Console.ReadLine());
+
+            double add = a + b;
+            double sub = a - b;
+            double diff = a * b;
+            double mod = a % b;
+            if (input == 1)
+            {
+
+                return add;
+
+            }
+            else if (input == 2)
+            {
+                return sub;
+            }
+            else if (input == 3)
+            {
+                return diff;
+            }
+            else
+            {
+                return mod;
+            }
+            
+        
+        }
+
+        static public double profit_loss(double cost_price, double selling_price)
+
+        {
+            if (selling_price > cost_price)
+            {
+                Console.WriteLine("Profit");
+                double profit = selling_price - cost_price;
+                double profit_percent = ((profit / cost_price) * 100);
+                return profit_percent;
+            }
+            else
+            {
+                Console.WriteLine("Loss");
+                double loss = Math.Abs(selling_price - cost_price);
+                double loss_percent = ((loss / cost_price) * 100);
+                return loss_percent;
+
+
+            }
+
+        
+        }
+        static public string   sort_num(double a1, double a2, double a3)
+        {
+            string x="";
+            double first = a1;
+            double small_of_a2_a3 =smallest_of_2(a2,a3);
+            if (small_of_a2_a3>a2)
+            {
+                x= "The smallest is num2";
+                return x;
+            }
+            else if (small_of_a2_a3>a3)
+            {
+                x= "The smallest is num3";
+                return x;
+            
+            }
+
+            else  if (small_of_a2_a3> first)
+            {
+                
+               x="The smallest is  num1";
+                return x;
+               
+            }
+            return x;
+            
+        
+           
+            
+            
+      }
+        static public string blocks_color(string letter, int num)
+        {
+            if (letter == "a" || letter == "c" || letter == "e" || letter == "g")
+            {
+                string x = "BLACK";
+
+                if (num % 2 == 0)
+                {
+                    x = "white";
+                    return x;
+                }
+                else { return x; }
+           
+            }
+            else if (letter == "b"  || letter =="d" || letter == "f" || letter == "h")
+            {
+                string x = "White";
+
+                if (num % 2 == 0)
+                {
+                    x = "Black";
+                    return x;
+                }
+               
+            }
+            return "white";}
