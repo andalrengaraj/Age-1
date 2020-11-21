@@ -1,0 +1,138 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace logic_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            #region equal_or_not 
+            //int   num1 = Get_integer("Enter the num1");
+            //int num2 = Get_integer("Enter the num2");
+            // bool res=equal_or_not_1(num1, num2);
+            // Console.WriteLine(res);
+            #endregion
+
+
+            #region  Leap_not_year
+           // int year = Get_integer("enter the year");
+            //string res = leap_or_not(year);
+           // Console.WriteLine(res);
+            #endregion
+
+
+            #region  multiples_of_k
+            //int n=Get_integer("Enter the n upto");
+            //int k=Get_integer("Enter the k multiples");
+            //for (int i = 0; i <n; )
+            //{
+            //    i = i + k;
+            //    if (i <= n)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            #endregion
+
+            #region  smallest_of_two
+            int a = Get_integer("enter");
+            int b = Get_integer("enter");
+            small_num(a, b);
+            Console.ReadLine();
+            
+
+            #endregion
+
+
+
+        }
+        static public int Get_integer(string message)
+        {
+            Console.WriteLine("*************GEtting user input*********");
+            Console.WriteLine(message + ".");
+            int tempvalue;
+            if (!int.TryParse(Console.ReadLine(), out tempvalue))
+            {
+                return Get_integer("Please enter an double value :");
+
+            }
+            return tempvalue;
+        }
+        static public bool equal_or_not(int num1, int   num2)
+        {
+            bool num3 =Convert.ToBoolean(num1 - num2);
+            return num3;
+        
+        }
+        static public bool equal_or_not_1(int num1, int num2)
+        {
+            bool num3=Convert.ToBoolean(num1^num2);
+            return num3;
+
+        }
+        static public string leap_or_not(int year)
+        {
+            // using if else ;
+            string x = "";
+            if (year % 4 == 0 && year % 100 != 0)
+            {
+                x = "leap year";
+            }
+            else if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0)
+            {
+                x = "leap year";
+            }
+            else
+            {
+                x = "not leap";
+            }
+            return x;
+            
+           
+
+        } //using if _else
+        static public string leap_or_not_1(int year)
+        {
+            string x = "";
+            if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0)
+            {
+                x = "leap year";
+            }
+            if (year % 4 == 0)
+            {
+                x = "leap year";
+            }
+            x = "non leap";
+            return x;
+        }//without else
+  
+        static public void small_num(int a, int b)
+        {
+            if(a/b==0)
+            {
+                Console.WriteLine("{0}", a);
+            }
+            else
+            {
+                Console.WriteLine("{0}",b);
+            }
+             
+
+            
+          
+        }
+
+        
+        
+           
+
+        
+
+            
+    }
+}
