@@ -1,0 +1,487 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace for_while_loops
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            #region 1 print values upto given N
+            //Console.WriteLine("Enter the N");
+            //int n=Convert.ToInt32(Console.ReadLine());
+            //for (int i=0;i<n;i++)
+            //{
+            //    Console.WriteLine(i+1);
+            //}
+            #endregion
+
+
+            #region 2 print values from M to N
+            //int M = Getinteger("Enter the M value ");
+            //int N = Getinteger("Enter the N value");
+            //for (int i = M; i <= N; i++)
+            //{
+            //    Console.WriteLine(i);
+
+            //}
+
+
+
+
+            #endregion
+
+
+            #region 3.print all even upto N
+            //int N = Getinteger("Enter the value for N");
+            //for (int i = 1; i <= N; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+
+            //}
+
+
+            #endregion
+
+
+            #region 4 print all odd upto N
+            //int N = Getinteger("Enter the value for N");
+            //for (int i = 1; i <= N; i++)
+            //{
+            //    if (i % 2 != 0)
+            //    {
+            //        Console.WriteLine(i);
+
+            //    }
+
+            //}
+
+            #endregion
+
+
+            #region 5 print all even from M upto N
+            //int M = Getinteger("Enter the value for M");
+            //int N = Getinteger("Enter the value for N");
+            //int res = even_num(M, N);
+            //Console.WriteLine(res);
+            // **return 0 problems***
+
+            #endregion
+
+
+            #region 6 print all  odd from M upto N
+            //int M = Getinteger("Enter the value for M");
+            //int N = Getinteger("Enter the value for N");
+            //odd_num(M, N);
+            
+            #endregion
+
+            #region 7 print all from 1 to 100 num divisible by given n
+            //int N = Getinteger("Enter the value for N");
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    if (i % N == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+            #endregion
+            #region 7(A)
+            //int num = Getinteger("Enter the k");
+            //for (int i = num; i <= 100; i = i + num)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            #endregion
+            #region 7(B)
+            //int num = Getinteger("Enter the k");
+            //int value = 0;
+            //while (value < 100)
+            //{
+            //    value = value + num;
+            //    Console.WriteLine(value);
+            //}
+            
+
+            #endregion
+
+            #region 8 table upto  20 for given n
+            //int n = Getinteger("Enter the value for n");
+            //for (int i = 1; i <= 20; i++)
+            //{
+            //    int output = i * n;
+            //    Console.WriteLine(output);
+
+            //}
+            #endregion
+
+            #region 9 table for 1,2,3,4,5 upto 20
+            //for (int j = 1; j <= 5; j++)
+            //{
+            //    int output = j;
+            //    for (int i = 1; i <= 20; i++)
+            //    {
+            //        int output1 = j * i;
+            //        Console.WriteLine(string.Format("{0}*{1}={2}", i, j, output1));
+            //        //********how to display  it in one line*********//
+
+            //    }
+            //}
+
+            #endregion
+
+
+            #region 10 sum of all numbers upto n
+            //int n = Getinteger("Enter the n value");
+            //int res = sum_of_all(n);
+            //Console.WriteLine(res);
+
+
+
+            #endregion
+
+            #region 11 sum of all even  numbers  upto n
+            //int n = Getinteger("Enter the n");
+            //int res = sum_of_all_even(n);
+            //Console.WriteLine(res);
+            #endregion
+
+            #region 12 sum of all odd numbers upto n
+            //int n = Getinteger("Enter the value for n");
+            //int res = sum_of_all_odd(n);
+            //Console.WriteLine(res);
+            #endregion
+
+
+            #region 13 print k multiples upto n
+            //int n = Getinteger("Enter the value upto n");
+            //int k = Getinteger("Enter the value for k multiples");
+            //for (int i = 0; i <= n; i++)
+            //{
+            //    if (i % k == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            #endregion
+
+
+
+            #region 14 fizz bizz fizzbizz
+            //int n = Getinteger("Enter value of n upto");
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    if (i % 3 == 0 && i % 5 == 0)
+            //    {
+            //        Console.WriteLine("FizzBizz");
+            //    }
+            //    else if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine("Fizz");
+            //    }
+            //    else if (i % 5 == 0)
+            //    {
+            //        Console.WriteLine("Bizz");
+            //    }
+            //    else {
+            //        Console.WriteLine(i);
+            //    }
+
+            //}
+            #endregion
+
+
+            #region 15 Factorial of given n
+            //int n = Getinteger("Enter the n ");
+            //int fact = 1;
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    fact = fact * i;
+
+
+
+            //}
+            //Console.WriteLine(fact);
+
+
+
+
+
+            #endregion
+
+
+            #region 16 total average
+            //int n = Getinteger("Enter number of subjec");
+            //double total = 0;
+
+
+
+            //    for (int i = 1;i<=n ; i++)
+            //    {
+
+            //        Console.WriteLine(string.Format("enter the sub mark{0}: ", i));
+            //        double x=Convert.ToDouble( Console.ReadLine());
+            //        total = total + x;
+
+
+            //    }
+            //    Console.WriteLine(total);
+            //    double  average = total / n;
+            //    Console.WriteLine(average);
+
+            #endregion
+
+            #region 17 scores
+
+            //int n = Getinteger("Enter the number of rounds");
+            //double total=0;
+            //double each_score = 0;
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    Console.WriteLine(string.Format("Enter the score for round  {0} :", i));
+            //    double x = Convert.ToDouble(Console.ReadLine());
+            //    each_score = each_score + x;
+            //    Console.WriteLine(string.Format("The running score after round {0}",each_score));
+            //    total=total+x;
+
+
+            //}
+            //Console.WriteLine(string.Format("the total score after all the rounds {0}",total));
+
+
+            #endregion
+
+            #region 18 menu-driven
+            //string ans = "yes";
+            //while (ans == "yes")
+            //{
+            //    double a = GetDobule("Enter a");
+            //    double b = GetDobule("enter b");
+
+            //    double res = menu_driven(a, b);
+            //    Console.WriteLine(res);
+            //    Console.WriteLine("type Yes to continue or type quit to end the cal");
+            //    ans = Console.ReadLine();
+            //    if (ans == "quit")
+            //    {
+            //        break;
+            //    }
+
+            //}
+            #endregion
+
+            #region 19 rps game
+
+
+
+            #endregion
+
+            #region 20.Guess the number
+
+           
+
+            Random random = new Random();
+            int computer_num = random.Next(1, 21);
+
+            int count = 0;
+            while (computer_num != 0)
+            {
+                int user_guess = Getinteger("Enter your number between 1 to 20");
+                count++;
+                if (user_guess == computer_num)
+                {
+                    Console.WriteLine("Correct guess");
+                    Console.WriteLine("You won in {0} attempts", count);
+                    computer_num = 0;
+                    break;
+
+                }
+                 else if (user_guess > computer_num)
+                {
+                    Console.WriteLine("You guessed a larger number");
+
+
+                }
+                 else if (user_guess < computer_num)
+                {
+
+                    Console.WriteLine("You guessed a smaller number");
+                   
+
+                }
+                
+
+
+            }
+        
+            #endregion
+
+
+        }
+
+
+
+        
+        static public int Getinteger(string message)
+        {
+            Console.WriteLine("Getting user input ");
+            Console.WriteLine(message + ";");
+            int tempvalue;
+
+            if (!int.TryParse(Console.ReadLine(),out tempvalue))
+            {
+                return Getinteger("Please enter valid integer");
+            
+            
+            }
+            return tempvalue;
+        
+        
+        }
+        static public double GetDobule(string message)
+        {
+            Console.WriteLine("Getting user input ");
+            Console.WriteLine(message + ";");
+            double tempvalue;
+
+            if (!double.TryParse(Console.ReadLine(), out tempvalue))
+            {
+                return GetDobule("Please enter valid integer");
+
+
+            }
+            return tempvalue;
+
+
+        }
+        static public int even_num(int m, int n)
+        {
+            int i = m;
+            for (i=m; i <= n; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+
+                }
+                else
+                {
+                    continue;
+                     
+                }
+
+
+            }
+            return 0;
+            
+        }
+        static public void odd_num(int m, int n)
+        {
+            int i = m;
+            for (  i = m; i <= n; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.WriteLine(i);
+
+                }
+                else
+                {
+                    continue;
+
+                }
+
+
+            }
+            
+
+        }
+        static public int sum_of_all(int n)
+        {
+            int sum = 0;
+            for (int i = 0; i <= n; i++)
+            {
+                sum = i + sum;
+            }
+            return sum;
+        }
+        static public int sum_of_all_even(int n)
+        {
+            int sum = 0;
+            for (int i = 0; i <= n; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    sum = i + sum;
+                }
+                else 
+                { 
+                    continue;
+                }
+            }
+            return sum;
+        }
+        static public int sum_of_all_odd(int n)
+        {
+            int sum = 0;
+            for (int i = 0; i <= n; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    sum = i + sum;
+                }
+            }
+            return sum;
+        }
+        static public double  menu_driven(double a, double b)
+        {
+            Console.WriteLine("1-add");
+            Console.WriteLine("2 -sub");
+            Console.WriteLine("3 -mul");
+            Console.WriteLine("4 -mod");
+            int input = Convert.ToInt32(Console.ReadLine());
+
+            double add = a + b;
+            double sub = a - b;
+            double diff = a * b;
+            double mod = a % b;
+            if (input == 1)
+            {
+
+                return add;
+
+            }
+            else if (input == 2)
+            {
+                return sub;
+            }
+            else if (input == 3)
+            {
+                return diff;
+            }
+            else
+            {
+                return mod;
+            }
+
+        }
+        static public void random(int n,int n1)
+    {
+             int a = Getinteger("Enter your number between 1 to 20");
+            Random random = new Random();
+            int b = random.Next(1, 20);
+
+    }
+            
+           
+        }
+    }
+
