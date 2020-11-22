@@ -1,0 +1,776 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace primes1
+{
+    static public  class Program
+    {
+         public static void Main(string[] args)
+        {
+            #region
+            int num = GetInterger("Enter the num");
+            factor(num);
+            
+            #endregion
+
+            #region
+            // int num = GetInterger("Enter the num ");
+            //  int res = prime_or_not(num);
+
+            #endregion
+
+
+
+
+            #region
+            //int num = GetInterger("enter the num");
+            //int res = print_prime(num);
+            //Console.WriteLine(res);
+
+            #endregion
+
+
+            #region
+            // int num = GetInterger("enetr the num");
+            // print_prime(num);
+            #endregion
+
+
+            #region print prime numbers
+            // int n = GetInterger("enter n");
+            // print_prime1(n);
+            #endregion
+
+
+
+            #region isprime
+            //int num = GetInterger("Enter the num");
+            //bool ans = prime_2(num);
+            //Console.WriteLine(ans);
+            #endregion
+
+
+            #region n_prime
+            //  int n = GetInterger("Enter the n");
+            //  first_n_prime(n);
+            #endregion
+
+            #region numbers_of_primes_in_n
+            // int n = GetInterger("Enter the n");
+            //  num_of_prime(n);
+
+            #endregion
+
+
+            #region 6
+            // int n = GetInterger("Enter the n");
+            // int ans= sum_of_prime(n);
+            //  Console.WriteLine(ans);
+            #endregion
+
+            #region  7
+            //int n = GetInterger("Enter the num");
+            //int ans = sum_of_prime_n(n);
+            // Console.WriteLine(ans);
+
+            #endregion
+
+            #region  8
+            //int m = GetInterger("ENter the m");
+            // int n = GetInterger("Enter the n");
+            // print_prime_m_n(m, n);
+            #endregion
+
+            #region 9
+            // int num = GetInterger("enter the num");
+            // prime_factor(num);
+            #endregion
+
+            #region 15 next_prime
+            // int num = GetInterger("Enter the num");
+            // next_prime(num);
+
+
+
+            #endregion
+
+            #region 16 previous_prime
+            //int num = GetInterger("enter the num");
+            //int ans = previous_prime(num);
+            // Console.WriteLine(ans);
+            #endregion
+
+            #region 17 nearest prime
+            //int num = GetInterger("Enter the num");
+            // int nearest = nearest_prime(num);
+            // Console.WriteLine(nearest);
+
+
+
+
+
+            #endregion //warning//warning
+
+            #region 18
+            //int num = GetInterger("Enter the num");
+            //int k = GetInterger("Enter the k");
+            //int ans= kth(num, k);
+           // Console.WriteLine(ans);
+            
+            #endregion//error
+
+           // int num1 = GetInterger("Enter the num1");
+           // int num2 = GetInterger("Enter the num2");
+           /// int num_1=swap(num1,num2);
+           // int num_2=swap_1(num1,num2);
+           // Console.WriteLine(num_1);
+           // Console.WriteLine(num_2);
+
+          //  int m = GetInterger("Enter the m");
+          //  int n = GetInterger("Enter the n");
+            //  range(m, n);
+
+            #region 11
+            //int m = GetInterger("Enter the m");
+            //int n = GetInterger("Enter the n");
+            // if (m > n)
+            //{
+            //    int temp = m;
+            //    m = n;
+            //    n = temp;
+            //    print_prime_m_n(m, n);
+            // }
+            // else
+            // {
+            //     print_prime_m_n(m,n);
+            // }
+
+
+            #endregion
+
+
+
+            #region 12
+            //int m = GetInterger("Enter the m");
+            //int n = GetInterger("Enter the n");
+            //if (m > n)
+            //{
+            //    int temp = m;
+            //    m = n;
+            //    n = temp;
+            //    int ans = print_prime_m_n_num(m, n);
+            //    Console.WriteLine(ans);
+
+
+            //}
+            //else
+            //{
+            //    int ans = print_prime_m_n_num(m, n);
+            //    Console.WriteLine(ans);
+            //}
+
+            #endregion
+
+            #region 13
+           // int m = GetInterger("Enter the m");
+           // int n = GetInterger("Enter the n");
+           // print_even(m, n);
+            #endregion
+
+
+            #region 24
+          //  int m = GetInterger("Enter the m");
+           // int n = GetInterger("Enter the n");
+          //  int ans = large(m, n);
+          //  Console.WriteLine(ans);
+
+
+            #endregion
+
+            #region 25
+            //int m = GetInterger("ENter the m");
+            //int n = GetInterger("Enter the n");
+            //int count = 0;
+            //int ans = m + 1;
+            
+            //while (count == 0)
+            //{
+            //    if (isprime(ans))
+            //    {
+            //        Console.WriteLine(ans);
+            //        count++;
+            //        ans++;
+            //    }
+            //    else
+            //    {
+            //        ans++;
+            //    }
+
+                   
+                    
+
+                
+                
+
+               
+           // }
+            #endregion
+             
+            #region 21
+           // int num = GetInterger("enter the num");
+           // check_21(num);
+            
+            #endregion
+
+            #region 22
+           // int num = GetInterger("Enter the num");
+           // check_22(num);
+            #endregion
+
+
+
+
+
+
+        }
+        static public int GetInterger(string message)
+        {
+            Console.WriteLine("******Getting Input from user********");
+            Console.WriteLine(message + ":");
+            int tempvalue;
+            if (!int.TryParse(Console.ReadLine(), out tempvalue))
+            {
+                return GetInterger("Please enter the valid integer :");
+            }
+            return tempvalue;
+        }
+        public static void factor(int num)
+        {
+           
+            for (int i = 1; i <= num; i++)
+            {
+                if (num % i == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+           
+        }
+        public static int prime_or_not(int num)
+        {
+            int prime_count = 0;
+            for (int i = 1; i <= num; i++)
+            {
+                if (num % i == 0)
+                {
+
+                    prime_count++;
+
+
+                }
+
+
+
+            }
+            if (prime_count == 2)
+            {
+                Console.WriteLine("prime");
+
+            }
+            else
+            {
+                Console.WriteLine("not prime");
+            }
+            return 0;
+        }
+        public static int print_prime(int num)
+        {
+            for (int i = 1; i <= num; i++)
+            {
+                string ans = Convert.ToString(prime_or_not(i));
+                if (ans == "prime")
+                {
+                    Console.Write(i);
+                }
+            }
+            return 0;
+        }
+        public static bool isprime(int num)
+        {
+            int prime_count = 0;
+            for (int i = 2; i <= (num / 2); i++)
+            {
+                if (num % i == 0)
+                {
+                    prime_count++;
+                }
+
+            }
+            if (prime_count == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public static bool isprime1(int num)
+        {
+            int count = 0;
+            for (int i = 2; i <= (num / 2); i++)
+            {
+                if (num % i == 0)
+                {
+                    count++;
+
+                }
+
+            }
+            if (count == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public static int swap(int num1, int num2)
+        {
+            int temp=0;
+            temp=num1;
+            num1=num2;
+            num2=temp;
+            return num1;
+        }
+        public static int swap_1(int num1, int num2)
+        {
+            int temp = 0;
+            temp = num1;
+            num1 = num2;
+            num2=temp;
+            return num2;
+        }
+
+
+
+        public static void print_prime1(int n)
+        {
+            for (int i = 2; i <= n; i++)
+            {
+                if (isprime(i))
+                {
+                    Console.WriteLine(i);
+                }
+
+
+            }
+
+        }
+        public static void first_n_prime(int n)
+        {
+            int count = 0;
+            int i = 2;
+            while (count < n)
+            {
+                if (isprime(i))
+                {
+                    count++;
+                    Console.WriteLine(i);
+                    i++;
+                }
+                else
+                {
+                    i++;
+                }
+
+            }
+        }
+        public static void num_of_prime(int n)
+        {
+            int count = 0;
+            int i = 2;
+            while (i <= n)
+            {
+                if (isprime(i))
+                {
+                    count++;
+                    i++;
+                }
+                else
+                {
+                    i++;
+                }
+
+            }
+            Console.WriteLine(count);
+
+
+        }
+        public static int sum_of_prime(int n)
+        {
+            int sum = 0;
+
+            int i = 2;
+            while (i < n)
+            {
+                if (isprime(i))
+                {
+                    sum = sum + i;
+                    i++;
+                }
+                else
+                {
+                    i++;
+                }
+            }
+            return sum;
+        }
+        public static int sum_of_prime_n(int n)
+        {
+            int sum = 0;
+            for (int i = 2; i < n; i++)
+            {
+                if (isprime(i))
+                {
+                    sum = sum + i;
+
+                }
+            }
+            return sum;
+        }
+        public static void print_prime_m_n(int m, int n)
+        {
+            for (int i = m; i < n; i++)
+            {
+                if (isprime(i))
+                {
+                    Console.WriteLine(i);
+                }
+
+
+            }
+
+
+        }
+        public static void prime_factor(int num)
+        {
+
+            for (int i = 2; i <= num; i++)
+            {
+                if (isprime(i))
+                {
+                    if (num % i == 0)
+                    {
+                        Console.WriteLine(i);
+
+                    }
+
+                }
+            }
+
+        }
+        public static void next_prime(int num)
+        {
+
+            int count = 0;
+            int i = num + 1;
+            while (count == 0)
+            {
+
+                if (isprime1(i))
+                {
+
+                    Console.WriteLine(i);
+                    count++;
+
+
+                    i++;
+                }
+                else
+                {
+                    i++;
+                }
+            }
+
+
+
+
+
+        }
+        public static int previous_prime(int num)
+        {
+            int prev = 0;
+            int i = num - 1;
+            int count = 0;
+            while (count == 0)
+            {
+                if (isprime(i))
+                {
+                    prev = i;
+                    count++;
+                    i--;
+
+
+                }
+                else
+                {
+                    i--;
+                }
+
+
+            }
+            return prev;
+
+        }
+        public static int nearest_prime(int num)
+        {
+            int prev = previous_prime(num);
+            next_prime(num);
+            int next1 = Convert.ToInt32(Console.ReadLine());
+            int diff = num - prev;
+            int diff1 = next1 - num;
+            if (diff < diff1)
+            {
+                return diff;
+            }
+            else
+            {
+            } return diff1;
+
+
+
+        }
+        public static int kth(int num, int k)
+        {
+            int count = 0;
+            int i = num + 1;
+            while (count != k)
+            {
+                if (isprime(i))
+                {
+                    count++;
+                    i++;
+                }
+                else
+                {
+                    i++;
+                }
+
+            }
+            return i;
+
+          
+            }
+        public static void range(int m, int n)
+        {
+            int count=0;
+            int ans= m + 1;
+
+            for (int i=ans; i < n; i++)
+            {
+                if (isprime(i))
+                {
+
+
+                    count++;
+                }
+            }
+
+                    if (count>0)
+                    {
+                        Console.WriteLine(true);
+                        
+                    }
+                    else
+                    {
+                        Console.WriteLine(false);
+                    }
+                }
+        public static int print_prime_m_n_num(int m, int n)
+        {
+            int count = 0;
+            for (int i = m; i < n; i++)
+            {
+                if (isprime(i))
+                {
+                    
+                    count++;
+                }
+
+
+            }
+            return count;
+
+
+        }
+        public static bool prime_2(int num)
+        {
+            int count=0;
+            if (num == 2)
+            {
+                return true;
+            }
+            else
+            {
+                int i = 3;
+                for (i = 3; i < num; i=i + 2)
+                {
+                    if (num % i == 0)
+                    {
+                        count++;
+                    }
+
+
+                }
+                if (count == 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            
+
+
+            }
+        }
+        public static void print_even(int m, int n)
+        {
+            if (m % 2 == 0)
+            {
+                for (int i = m + 1; i < n; i = i + 2)
+                {
+                    if (prime_2(i))
+                    {
+                        Console.WriteLine(i);
+                    }
+                }
+            }
+            else
+            {
+                for(int i=m;i<n;i=i+2)
+                {
+                    if (prime_2(i))
+                    {
+                        Console.WriteLine(i);
+                    }
+
+            }
+
+            }
+        }
+        public static int large(int m, int n)
+        {
+            
+            int temp = m;
+            m = n;
+            n = temp;
+
+            int ans= previous_prime(m);
+            return ans;
+
+            }
+        public static void check_21(int num)
+        {
+            for (int i = 2; i < num; )
+            {
+                if (num % i == 0)
+                {
+                    
+                    Console.WriteLine(i);
+                    int div = num / i;
+                    Console.WriteLine(div);
+
+                    if (isprime(i) && isprime(div))
+                    {
+                        Console.WriteLine(true);
+
+                    }
+                    else
+                    {
+                        Console.WriteLine(false);
+                    }
+                    break;
+                }
+                else
+                {
+                    i++;
+
+                }
+            }
+            
+   
+            
+           
+        }
+        public static void check_22(int num)
+        {
+            for (int i = 2; i < num; )
+            {
+                if (num % i == 0)
+                {
+
+                    Console.WriteLine(i);
+                    int div = num / i;
+                    Console.WriteLine(div);
+
+                    if (isprime(i) && isprime(div))
+                    {
+                        if (i == div)
+                        {
+                            Console.WriteLine("have unique multiples");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Not Unique but semiprime");
+                        }
+
+                    }
+                    else
+                    {
+                        Console.WriteLine(false);
+                    }
+                    break;
+                }
+                else
+                {
+                    i++;
+
+                }
+            }
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+       
+            
+        }
+            }
+          
+                 
+        
+
+    
+    
+
+
+
+    
+
+    
+
