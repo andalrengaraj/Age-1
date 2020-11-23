@@ -1,6 +1,0 @@
-c:\users\gopal\documents\visual studio 2012\Projects\age_1\age_1\bin\Debug\age_1.exe.config
-c:\users\gopal\documents\visual studio 2012\Projects\age_1\age_1\bin\Debug\age_1.exe
-c:\users\gopal\documents\visual studio 2012\Projects\age_1\age_1\bin\Debug\age_1.pdb
-c:\users\gopal\documents\visual studio 2012\Projects\age_1\age_1\obj\Debug\age_1.csprojResolveAssemblyReference.cache
-c:\users\gopal\documents\visual studio 2012\Projects\age_1\age_1\obj\Debug\age_1.exe
-c:\users\gopal\documents\visual studio 2012\Projects\age_1\age_1\obj\Debug\age_1.pdb
